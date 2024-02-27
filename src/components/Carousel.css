@@ -1,1 +1,47 @@
-/* write your carousel css in this file */
+/* Carousel CSS */
+.body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.backbtn,
+.forwardbtn {
+  text-align: center;
+  width: 100px;
+  cursor: pointer;
+}
+
+.backbtn {
+  justify-content: flex-start;
+}
+
+.forwardbtn {
+  justify-content: flex-end;
+}
+
+.img {
+  height: 550px;
+  width: 550px;
+}
+
+.title,
+.statement {
+  position: absolute;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.541);
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 600;
+  width: 300px;
+  top: 100px;
+}
+
+.statement {
+  font-size: 20px;
+  bottom: 100px;
+}
